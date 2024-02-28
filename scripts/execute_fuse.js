@@ -64,7 +64,7 @@ async function main() {
     }),
   ]);
 
-  // Sender Address
+  // Sender Address [not working]
   // const senderAddressx = await permissionless.getSenderAddress(publicClient, {
   //   initCode,
   //   entryPoint: ENTRYPOINT_ADDRESS,

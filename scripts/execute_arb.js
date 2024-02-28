@@ -7,8 +7,7 @@ const PAYMASTER_ADDRESS = "0x27B79f3273db94f08Ff8d320F19FA171324e4B27";
 async function main() {
   const ep = await hre.ethers.getContractAt("EntryPoint", ENTRYPOINT_ADDRESS);
 
-  // initCode: FACTORY_ADDRESS (20 bytes) + AccountFactory.createAccount(address)
-  const [signer0, signer1] = await hre.ethers.getSigners();
+  const [signer0] = await hre.ethers.getSigners();
   const address0 = await signer0.getAddress();
 
   const AccountFactory = await hre.ethers.getContractFactory("AccountFactory");
