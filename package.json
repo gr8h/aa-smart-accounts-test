@@ -1,0 +1,24 @@
+{
+  "name": "aa-smart-accounts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@account-abstraction/contracts": "^0.6.0",
+    "@openzeppelin/contracts": "^4.9.5",
+    "dotenv": "^16.4.5",
+    "hardhat": "^2.20.1",
+    "permissionless": "^0.0.33",
+    "userop": "^0.3.8",
+    "viem": "^2.0.6"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0"
+  }
+}
